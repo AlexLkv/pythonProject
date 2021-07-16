@@ -10,7 +10,7 @@ from loader import dp, bot
 
 @dp.message_handler(Command("anegdot"))
 async def show_men(message: Message):
-    await message.answer("-.-.-.-.-.-.-.-.-АНЕГДОТЫ-.-.-.-.-.-.-.-.- \n")
+    await message.answer("-.-.-.-.-.-.-.-.-АНЕКДОТЫ-.-.-.-.-.-.-.-.- \n")
     a = random.randint(1, 10)
     if a == 1:
         await message.answer("Девушка в темном переулке перепутала баллончики и вылечила грабителя от насморка.")

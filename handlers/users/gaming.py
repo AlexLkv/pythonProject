@@ -160,7 +160,7 @@ async def answer_q1(message: types.Message, state: FSMContext):
                 await state.reset_state()
                 await message.answer("Окей", reply_markup=game2)
     else:
-        await message.answer("ТЫ НЕГР ЧЕРНОЖОПЫЙ, ОТВЕЧАЙ ПРАВИЛЬНО!!!!")
+        await message.answer("Жду правильного ответа!!")
 
 # await message.answer("By, by.. Ждем тебя снова)", reply_markup=ReplyKeyboardRemove())
 # await state.reset_state()  # await state.reset_state(with data=False) - без очистки даты

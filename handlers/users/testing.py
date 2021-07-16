@@ -62,5 +62,5 @@ async def answer_q1(message: types.Message, state: FSMContext):
             await message.answer("Спасибо за ваши ответы)")
             await message.answer(f"Ответ 1: {answer1}")
             await message.answer(f"Ответ 2: {answer2}")
-            await message.answer("ТЫ НЕГР ЧЕРНОЖОПЫЙ, ОТВЕЧАЙ ПРАВИЛЬНО!!!!")
+            await message.answer("Отвечай пожалуйста правильно!")
         await state.reset_state()  # await state.reset_state(with data=False) - без очистки даты
