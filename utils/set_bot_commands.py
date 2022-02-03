@@ -9,4 +9,5 @@ async def set_default_commands(dp):
         types.BotCommand("test", "Тестик"),
         types.BotCommand("anegdot", "Анекдотики от юморного :D"),
         types.BotCommand("menu", "Неведомое говно 0_о"),
+        types.BotCommand("yesilino", "Загадай вопросик и получи ответик"),
     ])
